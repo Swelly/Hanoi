@@ -1,39 +1,48 @@
 body, html {
   height: 100%;
-  width: 100%;
   font-family: "Arvo";
-  font-weight: 200;
+  font-size: 20px;
   padding-bottom: 20px;
   background: url('arches.png');
 }
-
 p#game {
-  font-family: "Arvo";
-  font-size: 110%;
+  font-family: Museo;
+  font-size: 2em;
   text-align: center;
+  margin: 0;
 }
 
 section#one {
-  width: 110%;
+  width: 120%;
   position: relative;
-  bottom: 0;
   height: 5%;
   z-index: 3;
   border-radius: 5px;
-  margin-top: 315%;
-  margin-left: -5%;
-  background-color: #F3E2A9;
-  /* border: 5px black; */
-  margin: 10%, 10% 0 10%;
-
+  margin-top: 280%;
+  margin-left: -10%;
+  background-color: #086A87;
 }
 
 section#two {
-
+  width: 150%;
+  position: relative;
+  height: 5%;
+  z-index: 3;
+  border-radius: 5px;
+  margin-top: 0%;
+  margin-left: -25%;
+  background-color: #01A9DB;
 }
 
 section#three {
-
+  width: 175%;
+  position: relative;
+  height: 5%;
+  z-index: 3;
+  border-radius: 5px;
+  margin-top: 0%;
+  margin-left: -37%;
+  background-color: #0B2161;
 }
 
 section.main{
@@ -42,22 +51,24 @@ section.main{
   margin-right: 10%;
   width: 15%;
   height: 70%;
-  background-color: #999999;
+  background-image: -webkit-linear-gradient(bottom, #FCFFF5 0%, #788282 100%);
   float: left;
   display: inline;
   text-align: center;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
+  border: 0.05em solid #0A2229;
 }
 
 section.main2{
   margin-top: 10%;
   width: 15%;
   height: 70%;
-  background-color: #999999;
+  background-image: -webkit-linear-gradient(bottom, #FCFFF5 0%, #788282 100%);
   float: left;
   display: inline;
   text-align: center;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
+  border: 0.05em solid #0A2229;
 }
