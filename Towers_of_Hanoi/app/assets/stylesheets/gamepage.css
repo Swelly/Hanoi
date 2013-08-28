@@ -1,0 +1,63 @@
+body, html {
+  height: 100%;
+  width: 100%;
+  font-family: "Arvo";
+  font-weight: 200;
+  padding-bottom: 20px;
+  background: url('arches.png');
+}
+
+p#game {
+  font-family: "Arvo";
+  font-size: 110%;
+  text-align: center;
+}
+
+section#one {
+  width: 110%;
+  position: relative;
+  bottom: 0;
+  height: 5%;
+  z-index: 3;
+  border-radius: 5px;
+  margin-top: 315%;
+  margin-left: -5%;
+  background-color: #F3E2A9;
+  /* border: 5px black; */
+  margin: 10%, 10% 0 10%;
+
+}
+
+section#two {
+
+}
+
+section#three {
+
+}
+
+section.main{
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 15%;
+  height: 70%;
+  background-color: #999999;
+  float: left;
+  display: inline;
+  text-align: center;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+section.main2{
+  margin-top: 10%;
+  width: 15%;
+  height: 70%;
+  background-color: #999999;
+  float: left;
+  display: inline;
+  text-align: center;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
